@@ -36,6 +36,49 @@ class data
     cin>>c;
   }
  
-  void filter()
-  
+  int filter()
+  {int a,fmonthlyrental,fcalls,finternet,fsms;
+    cout<<"\n 1. filter based on monthly rental";
+    cout<<"\n 2. filter based on free internet";
+    cout<<"\n 3. filter based on free calls";
+    cout<<"\n 4. filter based on free sms";
+    cout<<"\n select the option";
+    cin>>a;
+   switch(a)
+   {case 1: cout<<"\n enter the filtering amount";
+            cin>>fmothlyrental;
+            return fmonthlyrental;
+            break;
+    case 2: cout<<"\n enter the filtering amount";
+            cin>>finternet;
+            return finternet;
+            break;
+    case 3: cout<<"\n enter the filtering amount";
+            cin>>fcalls;
+            return fcalls;
+            break;
+    case 2: cout<<"\n enter the filtering amount";
+            cin>>fsma;
+            return fsms;
+            break;
+   }
+  }
+   void show_results()
+   { int filter();
+     cout<<"\n available plan is "<<pname;
+    cout<<"\n free calls is "<<fcall;
+    cout<<"\n free internet is "<<fint;
+    cout<<"\n free sms is "<<fint;
+   }
+   void payment()
+   {int b;
+     cout<<"\n 1. credit card";
+    cout<<"\n 2. debit card";
+    cout<<"\n 3. net banking";
+    cout<<"\n 4. UPI";
+    cout<<"\n select the option";
+    cin>>b;
+   
+     
+   }
 };
